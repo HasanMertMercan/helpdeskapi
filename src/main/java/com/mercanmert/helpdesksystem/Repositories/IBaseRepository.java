@@ -4,8 +4,7 @@ import java.util.List;
 
 public interface IBaseRepository {
 
-    public List<?> getAll();
-
-    public Object findById(int id) ;
-
+    List<?> getAll();
+    Object findById(int id) ;
+    Object findByName(String name);
 }
