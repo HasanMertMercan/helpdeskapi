@@ -3,7 +3,9 @@ import com.mercanmert.helpdesksystem.Entities.User;
 
 public interface IUserRepository {
 
-    void createNewUser(User user);
+    void createUser(User user);
     void updateUser(User user);
     void deleteUser(int userId);
+
+    User findByEmail(String email);
 }

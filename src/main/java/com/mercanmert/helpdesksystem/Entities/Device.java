@@ -10,8 +10,8 @@ import java.util.Date;
 @Entity
 public class Device {
 
-
     public Device(){}
+
     public Device(int id, String deviceName, DeviceType deviceType, Date createdDate, Department department, Location location, int ownerId)
     {
         this.setId(id);
@@ -20,7 +20,7 @@ public class Device {
         this.setCreatedDate(createdDate);
         this.setDepartment(department);
         this.setLocation(location);
-        this.setOwnerId(ownerId);
+        this.setUser(new User(ownerId,"", "", "", "", "", "", null, null));
     }
 
     public Device(String deviceName, DeviceType deviceType, Date createdDate, Department department, Location location, int ownerId){
@@ -29,7 +29,7 @@ public class Device {
         this.setCreatedDate(createdDate);
         this.setDepartment(department);
         this.setLocation(location);
-        this.setOwnerId(ownerId);
+        this.setUser(new User(ownerId,"", "", "", "", "", "", null, null));
     }
 
     @Id
@@ -39,9 +39,19 @@ public class Device {
     private String deviceName;
     private DeviceType deviceType;
     private Date createdDate;
-    private int ownerId;
     private Location location;
     private Department department;
+
+    @ManyToOne
+    private User user;
+
+    public User getUser() {
+        return user;
+    }
+
+    public void setUser(User user) {
+        this.user = user;
+    }
 
     public int getId() {
         return id;
@@ -81,14 +91,6 @@ public class Device {
 
     public void setDepartment(Department department) {
         this.department = department;
-    }
-
-    public int getOwnerId() {
-        return ownerId;
-    }
-
-    public void setOwnerId(int ownerId) {
-        this.ownerId = ownerId;
     }
 
     public Location getLocation() {
