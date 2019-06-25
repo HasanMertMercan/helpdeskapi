@@ -58,7 +58,21 @@ public class UserService {
         return user;
     }
 
+    public void addUser(User user){
+        userRepository.save(user);
+    }
 
+    public void updateUser(User user){
+        userRepository.save(user);
+    }
+
+    public void deleteUser(User user){
+        userRepository.delete(user);
+    }
+
+    public void deleteUserById(int userId){
+        userRepository.deleteById(userId);
+    }
 
 
 }
