@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a665c9c0-692c-4320-840f-dc64f81b19df" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/helpdeskapi.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mercanmert/helpdesksystem/Repositories/DeviceRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mercanmert/helpdesksystem/Repositories/DeviceRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mercanmert/helpdesksystem/Repositories/TicketRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mercanmert/helpdesksystem/Repositories/TicketRepository.java" afterDir="false" />
-    </list>
+    <list default="true" id="a665c9c0-692c-4320-840f-dc64f81b19df" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -82,6 +77,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GithubDefaultAccount">
+    <option name="defaultAccountId" value="4a030279-bb25-4c2c-b8d1-89c34953936b" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -97,7 +95,6 @@
         <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/src/main/java/com/mercanmert/helpdesksystem/Repositories/BaseRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mercanmert/helpdesksystem/Repositories/IBaseRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mercanmert/helpdesksystem/Repositories/UserRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mercanmert/helpdesksystem/Repositories/IOperatorRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mercanmert/helpdesksystem/Entities/Employee.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mercanmert/helpdesksystem/Entities/Device.java" />
@@ -109,6 +106,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/mercanmert/helpdesksystem/Repositories/ITicketRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mercanmert/helpdesksystem/Repositories/TicketRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mercanmert/helpdesksystem/Repositories/DeviceRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mercanmert/helpdesksystem/Repositories/UserRepository.java" />
       </list>
     </option>
   </component>
@@ -207,7 +205,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../courseapi" />
-    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.importing" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -246,14 +244,21 @@
       <option name="project" value="LOCAL" />
       <updated>1561389725186</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="CreateRelationBetweenTablesOnRepositories">
+      <created>1561467667206</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1561467667206</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="70" y="27" width="1296" height="741" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.212" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.212" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -268,7 +273,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3289689" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.3289256" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50075644" side_tool="true" weight="0.32569557" />
       <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.49924356" weight="0.32569557" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.3289689" />
@@ -353,7 +358,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="TicketRepository" />
     <MESSAGE value="RearrangmentOfCustomObjects" />
-    <option name="LAST_COMMIT_MESSAGE" value="RearrangmentOfCustomObjects" />
+    <MESSAGE value="CreateRelationBetweenTablesOnRepositories" />
+    <option name="LAST_COMMIT_MESSAGE" value="CreateRelationBetweenTablesOnRepositories" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/com/mercanmert/valuetypes/enums/Department.java">
