@@ -65,7 +65,7 @@ public class DeviceController {
         deviceService.addDevice(device);
     }
 
-    @RequestMapping(method = RequestMethod.PUT, value = "/devices/add/user/{id}")
+    @RequestMapping(method = RequestMethod.PUT, value = "/devices/update/user/{id}")
     public void updateDevice(@RequestBody Device device, @PathVariable int id){
         device.setUser(new User(id,"","","","","","",null, null));
         deviceService.updateDevice(device);
