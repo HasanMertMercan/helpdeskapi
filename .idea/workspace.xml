@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="a665c9c0-692c-4320-840f-dc64f81b19df" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mercanmert/helpdesksystem/Controllers/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mercanmert/helpdesksystem/Controllers/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mercanmert/helpdesksystem/Controllers/OperatorController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mercanmert/helpdesksystem/Controllers/OperatorController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mercanmert/helpdesksystem/Services/OperatorService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mercanmert/helpdesksystem/Services/OperatorService.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -20,37 +21,38 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/mercanmert/helpdesksystem/Controllers/UserController.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/mercanmert/helpdesksystem/Controllers/OperatorController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="28" column="65" selection-start-line="28" selection-start-column="65" selection-end-line="28" selection-end-column="65" />
+            <state relative-caret-position="478">
+              <caret line="85" column="45" selection-start-line="85" selection-start-column="45" selection-end-line="85" selection-end-column="45" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#2734#2735#0" expanded="true" />
+                <element signature="e#2764#2765#0" expanded="true" />
+                <element signature="e#2934#2935#0" expanded="true" />
+                <element signature="e#2964#2965#0" expanded="true" />
+                <element signature="e#3152#3153#0" expanded="true" />
+                <element signature="e#3182#3183#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/mercanmert/helpdesksystem/Controllers/DeviceController.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/mercanmert/helpdesksystem/Services/OperatorService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="188">
-              <caret line="57" column="49" lean-forward="true" selection-start-line="57" selection-start-column="49" selection-end-line="57" selection-end-column="49" />
+            <state relative-caret-position="403">
+              <caret line="76" column="5" selection-start-line="76" selection-start-column="5" selection-end-line="76" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/mercanmert/helpdesksystem/Services/UserService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="194">
-              <caret line="25" column="28" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#getAllUsers#0;class#UserService#0" />
+                <element signature="method#getAllOperators#0;class#OperatorService#0" />
+                <element signature="method#getAllByDepartment#0;class#OperatorService#0" />
+                <element signature="method#getAllByLocation#0;class#OperatorService#0" />
+                <element signature="method#getOperatorById#0;class#OperatorService#0" />
+                <element signature="method#getOperatorByUsername#0;class#OperatorService#0" />
+                <element signature="method#getOperatorByEmail#0;class#OperatorService#0" />
+                <element signature="method#getOperatorByPhonenumber#0;class#OperatorService#0" />
+                <element signature="method#getNumberOfTicketsOnOperator#0;class#OperatorService#0" />
               </folding>
             </state>
           </provider>
@@ -100,14 +102,14 @@
         <option value="$PROJECT_DIR$/src/main/java/com/mercanmert/helpdesksystem/Repositories/TicketRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mercanmert/helpdesksystem/Repositories/DeviceRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mercanmert/helpdesksystem/Services/TicketService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mercanmert/helpdesksystem/Controllers/OperatorController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mercanmert/helpdesksystem/Controllers/TicketController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mercanmert/helpdesksystem/Services/OperatorService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mercanmert/helpdesksystem/Repositories/UserRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mercanmert/helpdesksystem/Services/UserService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mercanmert/helpdesksystem/Services/DeviceService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mercanmert/helpdesksystem/Services/UserService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mercanmert/helpdesksystem/Controllers/DeviceController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mercanmert/helpdesksystem/Controllers/UserController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mercanmert/helpdesksystem/Services/OperatorService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mercanmert/helpdesksystem/Controllers/OperatorController.java" />
       </list>
     </option>
   </component>
@@ -300,7 +302,21 @@
       <option name="project" value="LOCAL" />
       <updated>1561642265349</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="UserControllerFirst">
+      <created>1561644411406</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1561644411406</updated>
+    </task>
+    <task id="LOCAL-00009" summary="UserControllerDone">
+      <created>1561665378649</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1561665378649</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TodoView">
@@ -421,7 +437,9 @@
     <MESSAGE value="TestServices" />
     <MESSAGE value="DeviceController" />
     <MESSAGE value="FewArrengmentsOnServices" />
-    <option name="LAST_COMMIT_MESSAGE" value="FewArrengmentsOnServices" />
+    <MESSAGE value="UserControllerFirst" />
+    <MESSAGE value="UserControllerDone" />
+    <option name="LAST_COMMIT_MESSAGE" value="UserControllerDone" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/com/mercanmert/valuetypes/enums/Department.java">
@@ -515,16 +533,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mercanmert/helpdesksystem/Services/OperatorService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="945">
-          <caret line="63" selection-start-line="63" selection-end-line="63" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/mercanmert/helpdesksystem/Services/TicketService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1200">
@@ -553,16 +561,6 @@
             <element signature="imports" expanded="true" />
             <element signature="e#2566#2567#0" expanded="true" />
             <element signature="e#2600#2601#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mercanmert/helpdesksystem/Entities/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -605,17 +603,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mercanmert/helpdesksystem/Services/UserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="25" column="28" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#getAllUsers#0;class#UserService#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/mercanmert/helpdesksystem/Entities/Device.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -626,29 +613,83 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mercanmert/helpdesksystem/Controllers/OperatorController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mercanmert/helpdesksystem/Entities/User.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="15" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mercanmert/helpdesksystem/Controllers/DeviceController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="57" column="49" lean-forward="true" selection-start-line="57" selection-start-column="49" selection-end-line="57" selection-end-column="49" />
+        <state relative-caret-position="324">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mercanmert/helpdesksystem/Controllers/UserController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mercanmert/helpdesksystem/Controllers/DeviceController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="28" column="65" selection-start-line="28" selection-start-column="65" selection-end-line="28" selection-end-column="65" />
+        <state relative-caret-position="376">
+          <caret line="67" column="72" selection-start-line="67" selection-start-column="72" selection-end-line="67" selection-end-column="72" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mercanmert/helpdesksystem/Services/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="373">
+          <caret line="66" column="5" selection-start-line="66" selection-start-column="5" selection-end-line="66" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#getAllUsers#0;class#UserService#0" />
+            <element signature="method#getAllUsersByDepartment#0;class#UserService#0" />
+            <element signature="method#getAllUsersByLocation#0;class#UserService#0" />
+            <element signature="method#getUserById#0;class#UserService#0" />
+            <element signature="method#getUserByUsername#0;class#UserService#0" />
+            <element signature="method#getUserByEmail#0;class#UserService#0" />
+            <element signature="method#getUserByPhonenumber#0;class#UserService#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mercanmert/helpdesksystem/Controllers/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="711">
+          <caret line="57" column="20" lean-forward="true" selection-start-line="57" selection-start-column="20" selection-end-line="57" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mercanmert/helpdesksystem/Services/OperatorService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="403">
+          <caret line="76" column="5" selection-start-line="76" selection-start-column="5" selection-end-line="76" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#getAllOperators#0;class#OperatorService#0" />
+            <element signature="method#getAllByDepartment#0;class#OperatorService#0" />
+            <element signature="method#getAllByLocation#0;class#OperatorService#0" />
+            <element signature="method#getOperatorById#0;class#OperatorService#0" />
+            <element signature="method#getOperatorByUsername#0;class#OperatorService#0" />
+            <element signature="method#getOperatorByEmail#0;class#OperatorService#0" />
+            <element signature="method#getOperatorByPhonenumber#0;class#OperatorService#0" />
+            <element signature="method#getNumberOfTicketsOnOperator#0;class#OperatorService#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mercanmert/helpdesksystem/Controllers/OperatorController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="478">
+          <caret line="85" column="45" selection-start-line="85" selection-start-column="45" selection-end-line="85" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2734#2735#0" expanded="true" />
+            <element signature="e#2764#2765#0" expanded="true" />
+            <element signature="e#2934#2935#0" expanded="true" />
+            <element signature="e#2964#2965#0" expanded="true" />
+            <element signature="e#3152#3153#0" expanded="true" />
+            <element signature="e#3182#3183#0" expanded="true" />
           </folding>
         </state>
       </provider>

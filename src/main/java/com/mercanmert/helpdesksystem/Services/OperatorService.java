@@ -76,10 +76,6 @@ public class OperatorService {
         operatorRepository.save(operator);
     }
 
-    public void deleteOperator(Operator operator){
-        operatorRepository.delete(operator);
-    }
-
     public void deleteOperatorById(int operatorId){
         operatorRepository.deleteById(operatorId);
     }
