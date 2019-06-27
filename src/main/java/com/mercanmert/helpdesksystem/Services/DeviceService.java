@@ -61,10 +61,6 @@ public class DeviceService {
         deviceRepository.save(device);
     }
 
-    public void deleteDevice(Device device){
-        deviceRepository.delete(device);
-    }
-
     public void deleteDeviceById(int deviceId){
         deviceRepository.deleteById(deviceId);
     }

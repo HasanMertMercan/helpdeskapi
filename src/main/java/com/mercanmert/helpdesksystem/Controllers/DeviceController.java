@@ -76,6 +76,4 @@ public class DeviceController {
         deviceService.deleteDeviceById(id);
     }
 
-
-
 }
