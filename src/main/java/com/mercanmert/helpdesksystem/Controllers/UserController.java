@@ -5,7 +5,6 @@ import com.mercanmert.helpdesksystem.Services.UserService;
 import com.mercanmert.valuetypes.enums.Department;
 import com.mercanmert.valuetypes.enums.Location;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.ServletRequestBindingException;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;

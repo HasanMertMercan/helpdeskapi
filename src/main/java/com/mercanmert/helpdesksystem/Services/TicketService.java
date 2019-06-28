@@ -78,15 +78,11 @@ public class TicketService {
         ticketRepository.save(ticket);
     }
 
-    public void deleteTicket(Ticket ticket){
-        ticketRepository.delete(ticket);
-    }
-
     public void deleteTicketById(int ticketId){
         ticketRepository.deleteById(ticketId);
     }
 
-    public void deleteAlTickets(){
+    public void deleteAllTickets(){
         ticketRepository.deleteAll();
     }
 
